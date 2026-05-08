@@ -1,8 +1,9 @@
 
-import 'package:ciheapp/model/assignment.dart';
-import 'package:ciheapp/provider/assignment.dart';
-import 'package:ciheapp/view/assignments/assignments_submission.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/model/assignment.dart';
+import 'package:principles_ss/provider/assignment.dart';
+import 'package:principles_ss/view/assignments/assignments_submission.dart';
 import 'package:provider/provider.dart';
 
 

@@ -1,9 +1,11 @@
-import 'package:ciheapp/main.dart';
-import 'package:ciheapp/model/message.dart' as ciheMessage;
-import 'package:ciheapp/provider/api/messageprovider.dart';
+
+
+
 
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:principles_ss/model/message.dart' as ciheMessage;
+import 'package:principles_ss/provider/api/messageprovider.dart';
 import 'package:provider/provider.dart';
 import 'package:timeago/timeago.dart' as timeago;
 import 'package:vibration/vibration.dart';

@@ -1,8 +1,9 @@
 
-import 'package:ciheapp/model/notificationmodel_api.dart';
-import 'package:ciheapp/provider/api/announcementprovider.dart';
+
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:principles_ss/model/notificationmodel_api.dart';
+import 'package:principles_ss/provider/api/announcementprovider.dart';
 import 'package:provider/provider.dart';
 import 'package:timeago/timeago.dart' as timeago;
 

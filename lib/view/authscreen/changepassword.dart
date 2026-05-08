@@ -1,6 +1,7 @@
-import 'package:ciheapp/provider/password_provider.dart';
-import 'package:ciheapp/service/api/loginservice.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/provider/password_provider.dart';
+import 'package:principles_ss/service/api/loginservice.dart';
 import 'package:provider/provider.dart';
 
 

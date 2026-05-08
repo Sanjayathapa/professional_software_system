@@ -1,8 +1,7 @@
 
-import 'package:ciheapp/view/authscreen/forgetpassword.dart';
-
-import 'package:ciheapp/service/api/loginservice.dart';
 import 'package:flutter/material.dart';
+import 'package:principles_ss/service/api/loginservice.dart';
+import 'package:principles_ss/view/authscreen/forgetpassword.dart';
 
 
 

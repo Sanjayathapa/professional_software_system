@@ -1,14 +1,12 @@
-import 'package:ciheapp/calender_screen.dart';
-import 'package:ciheapp/service/api/loginservice.dart';
-import 'package:ciheapp/view/assignments/assignmentslist.dart';
-import 'package:ciheapp/view/assignmentscreen.dart';
-import 'package:ciheapp/view/authscreen/loginscreen.dart';
-import 'package:ciheapp/view/calenderscreen/calenderscreen.dart';
-import 'package:ciheapp/view/message/message_screen.dart';
-import 'package:ciheapp/profilescreen.dart';
-import 'package:ciheapp/view/notification/notificationscreen.dart';
-import 'package:ciheapp/view/student/studentenrollement.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/profilescreen.dart';
+import 'package:principles_ss/service/api/loginservice.dart';
+import 'package:principles_ss/view/assignmentscreen.dart';
+import 'package:principles_ss/view/authscreen/loginscreen.dart';
+import 'package:principles_ss/view/calenderscreen/calenderscreen.dart';
+import 'package:principles_ss/view/message/message_screen.dart';
+import 'package:principles_ss/view/notification/notificationscreen.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {

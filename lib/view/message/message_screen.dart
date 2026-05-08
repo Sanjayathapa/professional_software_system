@@ -1,6 +1,6 @@
-import 'package:ciheapp/model/apiusers.dart';
-import 'package:ciheapp/provider/api/messageprovider.dart';
-import 'package:ciheapp/view/message/chat_screen.dart';
+import 'package:principles_ss/model/apiusers.dart';
+import 'package:principles_ss/provider/api/messageprovider.dart';
+import 'package:principles_ss/view/message/chat_screen.dart';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

@@ -1,24 +1,22 @@
-import 'package:ciheapp/provider/api/announcementprovider.dart';
-import 'package:ciheapp/provider/api/api_profile_provider.dart';
-import 'package:ciheapp/provider/api/apiassignmentprovider.dart';
-import 'package:ciheapp/provider/api/calendereventprovider.dart';
-import 'package:ciheapp/provider/api/courseprovider.dart';
-import 'package:ciheapp/provider/api/dashboardapiu_provider.dart';
-import 'package:ciheapp/provider/api/dropdownprovider.dart';
-import 'package:ciheapp/provider/api/enrollementprovider.dart';
-import 'package:ciheapp/provider/api/group_member_provider.dart';
-import 'package:ciheapp/provider/api/messageprovider.dart';
-import 'package:ciheapp/provider/api/studentlist_provider.dart';
-import 'package:ciheapp/provider/assignment.dart';
 
-import 'package:ciheapp/provider/courses_provider.dart';
-
-import 'package:ciheapp/provider/password_provider.dart';
-
-import 'package:ciheapp/splashscreen.dart';
-import 'package:ciheapp/utils/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:principles_ss/provider/api/announcementprovider.dart';
+import 'package:principles_ss/provider/api/api_profile_provider.dart';
+import 'package:principles_ss/provider/api/apiassignmentprovider.dart';
+import 'package:principles_ss/provider/api/calendereventprovider.dart';
+import 'package:principles_ss/provider/api/courseprovider.dart';
+import 'package:principles_ss/provider/api/dashboardapiu_provider.dart';
+import 'package:principles_ss/provider/api/dropdownprovider.dart';
+import 'package:principles_ss/provider/api/enrollementprovider.dart';
+import 'package:principles_ss/provider/api/group_member_provider.dart';
+import 'package:principles_ss/provider/api/messageprovider.dart';
+import 'package:principles_ss/provider/api/studentlist_provider.dart';
+import 'package:principles_ss/provider/assignment.dart';
+import 'package:principles_ss/provider/courses_provider.dart';
+import 'package:principles_ss/provider/password_provider.dart';
+import 'package:principles_ss/splashscreen.dart';
+import 'package:principles_ss/utils/theme.dart';
 import 'package:provider/provider.dart';
 
 
@@ -74,7 +72,7 @@ class _MyAppState extends State<MyApp> {
          ChangeNotifierProvider(create:(_)=>StudentProvider()),
       ],
       child: MaterialApp(
-        title: 'CIHE App',
+        title: 'CDU App',
         theme: AppTheme.lightTheme,
         darkTheme: AppTheme.darkTheme,
         themeMode: ThemeMode.light, //// if we want use the system theme then we can use ThemeMode.system

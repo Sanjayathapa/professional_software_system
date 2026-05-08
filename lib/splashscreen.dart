@@ -1,7 +1,8 @@
 
-import 'package:ciheapp/provider/api/announcementprovider.dart';
-import 'package:ciheapp/view/authscreen/loginscreen.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/provider/api/announcementprovider.dart';
+import 'package:principles_ss/view/authscreen/loginscreen.dart';
 import 'package:provider/provider.dart';
 
 

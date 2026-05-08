@@ -1,8 +1,8 @@
-import 'package:ciheapp/admin/course/addcourse.dart';
-import 'package:ciheapp/provider/api/enrollementprovider.dart';
-import 'package:ciheapp/view/student/addenrollement.dart';
-import 'package:ciheapp/view/student/updateenrollement.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/provider/api/enrollementprovider.dart';
+import 'package:principles_ss/view/student/addenrollement.dart';
+import 'package:principles_ss/view/student/updateenrollement.dart';
 import 'package:provider/provider.dart';
 
 class StudentEnrollmentScreen extends StatefulWidget {
