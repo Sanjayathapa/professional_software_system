@@ -1,6 +1,7 @@
-import 'package:ciheapp/model/coursemodel.dart';
-import 'package:ciheapp/service/api/courseservice.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/model/coursemodel.dart';
+import 'package:principles_ss/service/api/courseservice.dart';
 
 class CoursesProvider with ChangeNotifier {
   List<Courses> _courses = [];

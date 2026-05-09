@@ -1,4 +1,5 @@
-import 'package:ciheapp/model/course.dart';
+
+import 'package:principles_ss/model/course.dart';
 
 
 class CourseService {

@@ -1,6 +1,7 @@
-import 'package:ciheapp/model/assignment.dart';
-import 'package:ciheapp/service/assignment_service.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/model/assignment.dart';
+import 'package:principles_ss/service/assignment_service.dart';
 
 
 class AssignmentProvider with ChangeNotifier {

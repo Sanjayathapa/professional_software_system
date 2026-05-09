@@ -5,9 +5,6 @@ import 'package:principles_ss/view/message/chat_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-
-
-
 class MessagesScreen extends StatefulWidget {
   const MessagesScreen({Key? key}) : super(key: key);
 
@@ -17,21 +14,22 @@ class MessagesScreen extends StatefulWidget {
 
 class _MessagesScreenState extends State<MessagesScreen> {
   bool _isInitialized = false;
-   String _searchQuery = '';
+  String _searchQuery = '';
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
     if (!_isInitialized) {
       WidgetsBinding.instance!.addPostFrameCallback((_) {
-       _loadContacts();
+        _loadContacts();
       });
-      
+
       _isInitialized = true;
     }
   }
 
   Future<void> _loadContacts() async {
-    final messageProvider = Provider.of<MessagesProvider>(context, listen: false);
+    final messageProvider =
+        Provider.of<MessagesProvider>(context, listen: false);
     await messageProvider.fetchContacts();
     messageProvider.setupMessageListeners();
   }
@@ -41,7 +39,6 @@ class _MessagesScreenState extends State<MessagesScreen> {
     return Scaffold(
       body: Column(
         children: [
-        
           Padding(
             padding: const EdgeInsets.all(16),
             child: TextField(
@@ -54,18 +51,17 @@ class _MessagesScreenState extends State<MessagesScreen> {
                 contentPadding: const EdgeInsets.symmetric(vertical: 12),
               ),
               onChanged: (value) {
-                  context.read<MessagesProvider>().searchContacts(value.trim().toLowerCase());
+                context
+                    .read<MessagesProvider>()
+                    .searchContacts(value.trim().toLowerCase());
               },
             ),
           ),
-          
-          
           Expanded(
             child: _buildContactsList(),
           ),
         ],
       ),
-   
     );
   }
 
@@ -75,11 +71,13 @@ class _MessagesScreenState extends State<MessagesScreen> {
         if (messageProvider.isLoading) {
           return const Center(child: CircularProgressIndicator());
         }
-        
+
         final contacts = messageProvider.contacts.where((contact) {
-        return contact.name.toLowerCase().contains(_searchQuery);
-      }).toList();
-        
+          if (contact == null) return false;
+          final user = contact as dynamic;
+          return user.name.toLowerCase().contains(_searchQuery);
+        }).toList();
+
         if (contacts.isEmpty) {
           return Center(
             child: Column(
@@ -99,7 +97,7 @@ class _MessagesScreenState extends State<MessagesScreen> {
             ),
           );
         }
-        
+
         return ListView.builder(
           itemCount: contacts.length,
           padding: const EdgeInsets.all(8),
@@ -118,13 +116,18 @@ class _MessagesScreenState extends State<MessagesScreen> {
                       : null,
                 ),
                 title: Text(contact.name),
-                subtitle: Text(_getRoleText(contact.role),style: TextStyle(color: Colors.lightGreen),),
+                subtitle: Text(
+                  _getRoleText(contact.role),
+                  style: TextStyle(color: Colors.lightGreen),
+                ),
                 trailing: const Icon(Icons.arrow_forward_ios, size: 16),
                 onTap: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => ChatScreen(userId: contact.id.toString(), userName: contact.name),
+                      builder: (context) => ChatScreen(
+                          userId: contact.id.toString(),
+                          userName: contact.name),
                     ),
                   );
                 },
@@ -140,7 +143,7 @@ class _MessagesScreenState extends State<MessagesScreen> {
     switch (role) {
       case UserRole.student:
         return 'Student';
-      case  UserRole.lecturer:
+      case UserRole.lecturer:
         return 'Teacher';
       case UserRole.admin:
         return 'Administrator';
@@ -149,4 +152,3 @@ class _MessagesScreenState extends State<MessagesScreen> {
     }
   }
 }
-

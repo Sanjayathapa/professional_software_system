@@ -1,7 +1,8 @@
-import 'package:ciheapp/model/apiusers.dart';
-import 'package:ciheapp/model/message.dart';
-import 'package:ciheapp/service/api/messageservice.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/model/apiusers.dart';
+import 'package:principles_ss/model/message.dart';
+import 'package:principles_ss/service/api/messageservice.dart';
 
 
 class MessagesProvider with ChangeNotifier {

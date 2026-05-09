@@ -1,9 +1,9 @@
-import 'package:ciheapp/provider/api/dropdownprovider.dart';
-import 'package:ciheapp/provider/api/enrollementprovider.dart';
-import 'package:ciheapp/provider/api/group_member_provider.dart';
-import 'package:ciheapp/view/widget/dropdownwidget.dart';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:principles_ss/provider/api/dropdownprovider.dart';
+import 'package:principles_ss/provider/api/group_member_provider.dart';
+import 'package:principles_ss/view/widget/dropdownwidget.dart';
 import 'package:provider/provider.dart';
 
 class UpdategroupScreen extends StatefulWidget {

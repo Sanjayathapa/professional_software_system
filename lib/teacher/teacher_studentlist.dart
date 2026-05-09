@@ -1,8 +1,7 @@
-import 'package:ciheapp/model/user.dart';
-import 'package:ciheapp/provider/api/studentlist_provider.dart';
-import 'package:ciheapp/view/message/chat_screen.dart';
-import 'package:ciheapp/view/message/message_screen.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/provider/api/studentlist_provider.dart';
+import 'package:principles_ss/view/message/chat_screen.dart';
 import 'package:provider/provider.dart';
 
 class TeacherStudentList extends StatefulWidget {

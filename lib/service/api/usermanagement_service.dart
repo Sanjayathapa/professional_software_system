@@ -1,6 +1,7 @@
 import 'dart:convert';
-import 'package:ciheapp/model/user.dart';
+
 import 'package:http/http.dart' as http;
+import 'package:principles_ss/model/user.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class UserManagementService {

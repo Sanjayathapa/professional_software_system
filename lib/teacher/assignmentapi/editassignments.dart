@@ -1,7 +1,8 @@
-import 'package:ciheapp/provider/api/apiassignmentprovider.dart';
-import 'package:ciheapp/provider/api/dropdownprovider.dart';
-import 'package:ciheapp/view/widget/dropdownwidget.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/provider/api/apiassignmentprovider.dart';
+import 'package:principles_ss/provider/api/dropdownprovider.dart';
+import 'package:principles_ss/view/widget/dropdownwidget.dart';
 import 'package:provider/provider.dart';
 
 class EditAssignment extends StatefulWidget {

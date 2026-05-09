@@ -1,6 +1,7 @@
-import 'package:ciheapp/model/course.dart';
-import 'package:ciheapp/service/course_service.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/model/course.dart';
+import 'package:principles_ss/service/course_service.dart';
 
 
 class CourseProvider with ChangeNotifier {

@@ -1,8 +1,9 @@
 import 'dart:convert';
-import 'package:ciheapp/model/notificationmodel_api.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:http/http.dart' as http;
+import 'package:principles_ss/model/notificationmodel_api.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AnnouncementProvider with ChangeNotifier {

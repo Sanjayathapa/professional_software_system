@@ -1,9 +1,9 @@
-import 'package:ciheapp/model/apiusers.dart';
-import 'package:ciheapp/provider/api/api_profile_provider.dart';
-import 'package:ciheapp/view/authscreen/changepassword.dart';
-import 'package:ciheapp/model/user.dart';
+
 
 import 'package:flutter/material.dart';
+import 'package:principles_ss/model/apiusers.dart';
+import 'package:principles_ss/provider/api/api_profile_provider.dart';
+import 'package:principles_ss/view/authscreen/changepassword.dart';
 import 'package:provider/provider.dart';
 
 

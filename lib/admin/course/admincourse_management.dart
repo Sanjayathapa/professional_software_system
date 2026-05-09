@@ -1,10 +1,10 @@
-import 'package:ciheapp/admin/course/addcourse.dart';
-import 'package:ciheapp/admin/course/detailscourse.dart';
-import 'package:ciheapp/model/coursemodel.dart';
-import 'package:ciheapp/provider/api/courseprovider.dart';
-import 'package:ciheapp/provider/courses_provider.dart';
-import 'package:ciheapp/service/api/courseservice.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/admin/course/addcourse.dart';
+import 'package:principles_ss/admin/course/detailscourse.dart';
+import 'package:principles_ss/model/coursemodel.dart';
+import 'package:principles_ss/provider/api/courseprovider.dart';
+import 'package:principles_ss/service/api/courseservice.dart';
 import 'package:provider/provider.dart';
 
 class AdminCourseManagement extends StatefulWidget {

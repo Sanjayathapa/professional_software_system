@@ -1,10 +1,9 @@
-import 'package:ciheapp/admin/course/detailscourse.dart';
-import 'package:ciheapp/model/assignment.dart';
-import 'package:ciheapp/provider/api/apiassignmentprovider.dart';
-import 'package:ciheapp/provider/assignment.dart';
-import 'package:ciheapp/teacher/assignmentapi/create_assignments.dart';
-import 'package:ciheapp/teacher/assignmentapi/editassignments.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/model/assignment.dart';
+import 'package:principles_ss/provider/api/apiassignmentprovider.dart';
+import 'package:principles_ss/teacher/assignmentapi/create_assignments.dart';
+import 'package:principles_ss/teacher/assignmentapi/editassignments.dart';
 import 'package:provider/provider.dart';
 
 class TeacherAssignmentList extends StatefulWidget {

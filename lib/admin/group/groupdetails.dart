@@ -1,6 +1,7 @@
-import 'package:ciheapp/model/enrollementmodel.dart';
-import 'package:ciheapp/provider/api/group_member_provider.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/model/enrollementmodel.dart';
+import 'package:principles_ss/provider/api/group_member_provider.dart';
 import 'package:provider/provider.dart';
 
 class GroupDetailsScreen extends StatefulWidget {

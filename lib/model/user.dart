@@ -1,6 +1,5 @@
 
-
-import 'package:ciheapp/model/apiusers.dart';
+import 'package:principles_ss/model/apiusers.dart';
 
 class User {
   final int id;

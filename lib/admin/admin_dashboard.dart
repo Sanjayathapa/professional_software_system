@@ -1,12 +1,11 @@
-import 'package:ciheapp/admin/course/admincourse_management.dart';
-import 'package:ciheapp/admin/enrollement/enrollement.dart';
-import 'package:ciheapp/admin/group/groupscreen.dart';
-import 'package:ciheapp/provider/api/dashboardapiu_provider.dart';
-import 'package:ciheapp/service/api/loginservice.dart';
-import 'package:ciheapp/view/authscreen/loginscreen.dart';
-import 'package:ciheapp/admin/adminnotification.dart';
-import 'package:ciheapp/view/message/apimessage.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/admin/course/admincourse_management.dart';
+import 'package:principles_ss/admin/group/groupscreen.dart';
+import 'package:principles_ss/provider/api/dashboardapiu_provider.dart';
+import 'package:principles_ss/service/api/loginservice.dart';
+import 'package:principles_ss/view/authscreen/loginscreen.dart';
+import 'package:principles_ss/view/message/apimessage.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

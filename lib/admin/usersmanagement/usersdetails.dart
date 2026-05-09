@@ -1,10 +1,8 @@
-import 'package:ciheapp/admin/course/editcourse.dart';
-import 'package:ciheapp/admin/usersmanagement/editusers.dart';
-import 'package:ciheapp/model/coursemodel.dart';
-import 'package:ciheapp/model/user.dart';
 
-import 'package:ciheapp/service/api/usermanagement_service.dart';
 import 'package:flutter/material.dart';
+import 'package:principles_ss/admin/usersmanagement/editusers.dart';
+import 'package:principles_ss/model/user.dart';
+import 'package:principles_ss/service/api/usermanagement_service.dart';
 
 class UsersDetailsScreen extends StatefulWidget {
   final int id;

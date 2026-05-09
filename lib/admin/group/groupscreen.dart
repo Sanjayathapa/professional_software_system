@@ -1,13 +1,11 @@
-import 'package:ciheapp/admin/course/addcourse.dart';
-import 'package:ciheapp/admin/group/addgroup.dart';
-import 'package:ciheapp/admin/group/groupmember/groupmember.dart';
-import 'package:ciheapp/provider/api/enrollementprovider.dart';
-import 'package:ciheapp/provider/api/group_member_provider.dart';
 
-import 'package:ciheapp/admin/group/editgroups.dart';
-import 'package:ciheapp/admin/group/groupdetails.dart';
 
 import 'package:flutter/material.dart';
+import 'package:principles_ss/admin/group/addgroup.dart';
+import 'package:principles_ss/admin/group/editgroups.dart';
+import 'package:principles_ss/admin/group/groupdetails.dart';
+import 'package:principles_ss/admin/group/groupmember/groupmember.dart';
+import 'package:principles_ss/provider/api/group_member_provider.dart';
 import 'package:provider/provider.dart';
 
 class GroupScreen extends StatefulWidget {

@@ -1,9 +1,8 @@
-import 'package:ciheapp/admin/adminnotification.dart';
-import 'package:ciheapp/model/notification_type.dart';
-import 'package:ciheapp/model/notificationmodel_api.dart';
-import 'package:ciheapp/provider/api/announcementprovider.dart';
-import 'package:ciheapp/teacher/teacherannouncement/teachersendannouncement.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/model/notificationmodel_api.dart';
+import 'package:principles_ss/provider/api/announcementprovider.dart';
+import 'package:principles_ss/teacher/teacherannouncement/teachersendannouncement.dart';
 import 'package:provider/provider.dart';
 
 class TeacherNotificationManagement extends StatefulWidget {

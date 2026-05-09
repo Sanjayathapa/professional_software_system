@@ -1,4 +1,5 @@
-import 'package:ciheapp/model/assignment.dart';
+
+import 'package:principles_ss/model/assignment.dart';
 
 
 

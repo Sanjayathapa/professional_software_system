@@ -1,6 +1,6 @@
-import 'package:ciheapp/provider/api/courseprovider.dart';
-import 'package:ciheapp/provider/courses_provider.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/provider/api/courseprovider.dart';
 import 'package:provider/provider.dart';
 
 

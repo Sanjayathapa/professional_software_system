@@ -1,7 +1,8 @@
-import 'package:ciheapp/admin/course/editcourse.dart';
-import 'package:ciheapp/model/coursemodel.dart';
-import 'package:ciheapp/service/api/courseservice.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/admin/course/editcourse.dart';
+import 'package:principles_ss/model/coursemodel.dart';
+import 'package:principles_ss/service/api/courseservice.dart';
 
 
 class CourseDetailsScreen extends StatefulWidget {

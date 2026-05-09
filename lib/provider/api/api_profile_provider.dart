@@ -1,9 +1,10 @@
 import 'dart:convert';
-import 'package:ciheapp/model/apiusers.dart';
-import 'package:ciheapp/model/user.dart';
+
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:principles_ss/model/apiusers.dart';
+import 'package:principles_ss/model/user.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ProfilesProvider with ChangeNotifier {

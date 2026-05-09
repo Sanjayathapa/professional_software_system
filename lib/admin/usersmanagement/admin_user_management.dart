@@ -1,10 +1,10 @@
-import 'package:ciheapp/admin/usersmanagement/addusers.dart';
-import 'package:ciheapp/admin/usersmanagement/editusers.dart';
-import 'package:ciheapp/admin/usersmanagement/usersdetails.dart';
-import 'package:ciheapp/model/apiusers.dart';
-import 'package:ciheapp/model/user.dart';
-import 'package:ciheapp/service/api/usermanagement_service.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/admin/usersmanagement/addusers.dart';
+import 'package:principles_ss/admin/usersmanagement/usersdetails.dart';
+import 'package:principles_ss/model/apiusers.dart';
+import 'package:principles_ss/model/user.dart';
+import 'package:principles_ss/service/api/usermanagement_service.dart';
 
 class AdminUserManagement extends StatefulWidget {
   const AdminUserManagement({Key? key}) : super(key: key);

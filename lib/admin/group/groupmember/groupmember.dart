@@ -1,6 +1,7 @@
-import 'package:ciheapp/admin/group/groupmember/addgroup_members.dart';
-import 'package:ciheapp/provider/api/group_member_provider.dart';
+
 import 'package:flutter/material.dart';
+import 'package:principles_ss/admin/group/groupmember/addgroup_members.dart';
+import 'package:principles_ss/provider/api/group_member_provider.dart';
 import 'package:provider/provider.dart';
 
 class GroupMmeberScreen extends StatefulWidget {

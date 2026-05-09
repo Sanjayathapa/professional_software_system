@@ -1,10 +1,11 @@
 import 'dart:convert';
-import 'package:ciheapp/admin/admin_dashboard.dart';
-import 'package:ciheapp/view/student/homescreen.dart';
-import 'package:ciheapp/teacher/teacher_dashboard.dart';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
+import 'package:principles_ss/admin/admin_dashboard.dart';
+import 'package:principles_ss/teacher/teacher_dashboard.dart';
+import 'package:principles_ss/view/student/homescreen.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
