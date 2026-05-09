@@ -50,14 +50,14 @@ class _SplashScreenState extends State<SplashScreen> {
             const SizedBox(height: 24),
            
             Text(
-              'CIHE',
+              'CDU',
               style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                 fontWeight: FontWeight.bold,
               ),
             ),
             const SizedBox(height: 8),
             Text(
-              'Stay connected with CIHE College',
+              'Stay connected with CDU',
               style: Theme.of(context).textTheme.bodyMedium,
             ),
             const SizedBox(height: 48),
